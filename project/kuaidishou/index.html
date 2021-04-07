@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>网页标题</title>
+
+    <meta name="keywords" content="快递手" />
+
+    <meta name="description" content="快递手" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .page {
+        background-color: #e8e8e8;
+      }
+      .bg {
+        width: 100%;
+        margin-top: 80px;
+      }
+      .logo {
+        width: 100px;
+        margin-left: 50px;
+      }
+      .title {
+        z-index: 10;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.06);
+      }
+      .title-name {
+        font-size: 28px;
+        margin-bottom: 8px;
+        margin-left: -10px;
+      }
+      .policy{
+          position: absolute;
+          right: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="title">
+        <img class="logo" src="./src/logo.png" />
+        <p class="title-name">快递手</p>
+        <a class="policy" href="./privacy-policy.html">《隐私政策》</a>
+      </div>
+      <img class="bg" src="./src/bg-kuaidishou.jpg" />
+    </div>
+  </body>
+</html>
