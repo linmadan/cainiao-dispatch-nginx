@@ -19,20 +19,21 @@
         background-color: #e8e8e8;
       }
       .bg {
+        z-index: 0;
+        position: absolute;
+        top: 0;
         width: 100%;
-        margin-top: 80px;
       }
       .logo {
         width: 100px;
         margin-left: 50px;
       }
       .title {
-        z-index: 10;
         height: 100px;
         width: 100%;
         display: flex;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.06);
+        background-color: transparent;
       }
       .title-name {
         font-size: 28px;
@@ -42,10 +43,12 @@
       .register{
           position: absolute;
           right: 160px;
+          z-index: 1;
       }
       .policy{
           position: absolute;
           right: 50px;
+          z-index: 1;
       }
     </style>
   </head>
@@ -53,8 +56,6 @@
   <body>
     <div class="page">
       <div class="title">
-        <img class="logo" src="./src/logo.png" />
-        <p class="title-name">快递手</p>
         <a class="register" href="http://cainiao.tenant.kuaidishou.com/#/user/register">注册</a>
         <a class="policy" href="./privacy-policy.html">《隐私政策》</a>
       </div>
