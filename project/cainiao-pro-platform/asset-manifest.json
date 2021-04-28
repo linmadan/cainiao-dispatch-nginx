@@ -9,11 +9,11 @@
   "/vendors~p__ExpandRecords~p__PaymentRecords~p__UserList.js": "/vendors~p__ExpandRecords~p__PaymentRecords~p__UserList.0de84a15.async.js",
   "/vendors~layouts__BasicLayout~layouts__UserLayout.js": "/vendors~layouts__BasicLayout~layouts__UserLayout.daa0bf58.async.js",
   "/layouts__BasicLayout.css": "/layouts__BasicLayout.45a5331f.chunk.css",
-  "/layouts__BasicLayout.js": "/layouts__BasicLayout.1dba37db.async.js",
+  "/layouts__BasicLayout.js": "/layouts__BasicLayout.d5924e4c.async.js",
   "/layouts__BlankLayout.js": "/layouts__BlankLayout.e29f3e4a.async.js",
   "/layouts__SecurityLayout.js": "/layouts__SecurityLayout.0ff43a6b.async.js",
   "/layouts__UserLayout.css": "/layouts__UserLayout.133edf91.chunk.css",
-  "/layouts__UserLayout.js": "/layouts__UserLayout.c90b27a3.async.js",
+  "/layouts__UserLayout.js": "/layouts__UserLayout.0b54b4ce.async.js",
   "/p__404.js": "/p__404.4b8e9af4.async.js",
   "/p__ExpandRecords.js": "/p__ExpandRecords.396a56d6.async.js",
   "/p__PaymentRecords.js": "/p__PaymentRecords.cce525cb.async.js",
@@ -22,9 +22,9 @@
   "/p__User__login.css": "/p__User__login.41c92099.chunk.css",
   "/p__User__login.js": "/p__User__login.503eb701.async.js",
   "/umi.css": "/umi.5445739c.css",
-  "/umi.js": "/umi.033cc342.js",
-  "/vendors~layouts__BasicLayout.css": "/vendors~layouts__BasicLayout.58029a11.chunk.css",
-  "/vendors~layouts__BasicLayout.js": "/vendors~layouts__BasicLayout.4c6945e6.async.js",
+  "/umi.js": "/umi.f74d3016.js",
+  "/vendors~layouts__BasicLayout.css": "/vendors~layouts__BasicLayout.e4916b93.chunk.css",
+  "/vendors~layouts__BasicLayout.js": "/vendors~layouts__BasicLayout.6741c96e.async.js",
   "/vendors~layouts__BlankLayout.js": "/vendors~layouts__BlankLayout.f2dfabe9.async.js",
   "/CNAME": "/CNAME",
   "/cainiao-logo.png": "/cainiao-logo.png",
@@ -35,5 +35,5 @@
   "/icons/icon-512x512.png": "/icons/icon-512x512.png",
   "/index.html": "/index.html",
   "/pro_icon.svg": "/pro_icon.svg",
-  "/static/logo.svg": "/static/logo.f0355d39.svg"
+  "/static/logo.png": "/static/logo.54c97177.png"
 }
