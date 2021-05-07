@@ -1,87 +1,105 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-  <meta charset="UTF-8" />
+    <title>快递手</title>
+    <link rel="icon" href="./src/logo.png" sizes="48x48" />
 
-  <title>快递手</title>
-  <link rel="icon" href="./src/logo.png" sizes="48x48">
+    <meta name="keywords" content="快递手" />
 
-  <meta name="keywords" content="快递手" />
+    <meta name="description" content="快递手" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
 
-  <meta name="description" content="快递手" />
-  <style>
-    * {
-      padding: 0;
-      margin: 0;
-    }
+      .page {
+        background-color: #e8e8e8;
+      }
 
-    .page {
-      background-color: #e8e8e8;
-    }
+      .bg {
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
 
-    .bg {
-      z-index: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-    }
+      .logo {
+        width: 100px;
+        margin-left: 50px;
+      }
 
-    .logo {
-      width: 100px;
-      margin-left: 50px;
-    }
+      .title {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+      }
 
-    .title {
-      height: 100px;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      background-color: transparent;
-    }
+      .title-name {
+        font-size: 28px;
+        margin-bottom: 8px;
+        margin-left: -10px;
+      }
 
-    .title-name {
-      font-size: 28px;
-      margin-bottom: 8px;
-      margin-left: -10px;
-    }
+      .register {
+        position: absolute;
+        right: 160px;
+        z-index: 1;
+      }
 
-    .register {
-      position: absolute;
-      right: 160px;
-      z-index: 1;
-    }
+      .login {
+        position: absolute;
+        right: 220px;
+        z-index: 1;
+      }
+      .authorization {
+        position: absolute;
+        right: 290px;
+        z-index: 1;
+      }
 
-    .login {
-      position: absolute;
-      right: 220px;
-      z-index: 1;
-    }
-    .authorization {
-      position: absolute;
-      right: 290px;
-      z-index: 1;
-    }
+      .policy {
+        position: absolute;
+        right: 50px;
+        z-index: 1;
+      }
+      .bt {
+        position: absolute;
+        width: 26vw;
+        height: 5.2vw;
+        top: 28vw;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    </style>
+  </head>
 
-    .policy {
-      position: absolute;
-      right: 50px;
-      z-index: 1;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="page">
-    <div class="title">
-      <a class="authorization" href="http://8.129.105.139:8989/web/downloads/cainiaologin.exe">授权工具下载</a>
-      <a class="login" href="http://cainiao.tenant.kuaidishou.com/">登录</a>
-      <a class="register" href="http://cainiao.tenant.kuaidishou.com/#/user/register">注册</a>
-      <a class="policy" href="./privacy-policy.html">《隐私政策》</a>
+  <body>
+    <div class="page">
+      <div class="title">
+        <a
+          class="authorization"
+          href="http://8.129.105.139:8989/web/downloads/cainiaologin.exe"
+          >授权工具下载</a
+        >
+        <a class="login" href="http://cainiao.tenant.kuaidishou.com/">登录</a>
+        <a
+          class="register"
+          href="http://cainiao.tenant.kuaidishou.com/#/user/register"
+          >注册</a
+        >
+        <a class="policy" href="./privacy-policy.html">《隐私政策》</a>
+      </div>
+      <img class="bg" src="./src/bg-kuaidishou.jpg" />
+      <a
+        href="http://8.129.105.139:8989/web/downloads/cainiaologin.exe"
+        class="bt"
+      ></a>
     </div>
-    <img class="bg" src="./src/bg-kuaidishou.jpg" />
-  </div>
-</body>
-
+  </body>
 </html>
